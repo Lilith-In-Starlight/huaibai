@@ -132,15 +132,20 @@ class DeraniToLatin:
         return "".join(converted)
 
 
-if __name__ == "__main__":
-    with open("src/assets/minecraft/lang/en_us.json") as f:
+def latinize(source):
+    with open(f"src/assets/{source}/lang/en_us.json", encoding="utf-8") as f:
         en = json.load(f)
-
-    with open("src/assets/minecraft/lang/qtq_tqg.json") as f:
+        
+    with open(f"src/assets/{source}/lang/qtq_tqg.json", encoding="utf-8") as f:
         lang = json.load(f)
 
-    with open("src/assets/minecraft/lang/qtq_latn_tqg.json", "w") as f:
+    with open(f"src/assets/{source}/lang/qtq_latn_tqg.json", "w", encoding="utf-8") as f:
         d2l = DeraniToLatin(prefix_separator="·")
         lang = {k: d2l.convert(v, en[k]) for k, v in lang.items()}
         lang["language.code"] = "qtq_latn_tqg"
         json.dump(lang, f, ensure_ascii=False, indent=4)
+
+if __name__ == "__main__":
+        latinize("minecraft")
+        latinize("biomesoplenty")
+

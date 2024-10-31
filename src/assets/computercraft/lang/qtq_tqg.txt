@@ -1,0 +1,10 @@
+{
+  "argument.computercraft.computer.id": "ID 󱚳󱛃 󱛄󱛊󱚹󱛂󱛄󱚴󱛍󱚺",",
+  "argument.computercraft.computer.instance": "ID 󱛀󱚹󱚺󱚲󱛍󱚺󱛎󱛃 󱚷󱛌󱚲󱛂 󱚻󱚺󱛎󱚹",
+  "argument.computercraft.computer.label": "󱚶󱚺󱛎󱛃󱚹󱛃󱛍󱚴 󱚳󱛃 󱚾󱛊󱚹󱛍󱛃󱛂󱛄󱚴󱛍󱚺",
+  "block.computercraft.computer_advanced": "󱚾󱚹󱛍󱛃󱛂󱛄󱚴󱛍󱚺 󱚶󱚹󱛍󱚲󱚵󱚲",
+  "block.computercraft.computer_normal": "󱚾󱚹󱛍󱛃󱛂󱛄󱚴󱛍󱚺",
+  "block.computercraft.disk_drive": "󱚶󱚺󱛎󱛃󱚷󱚹󱛍󱚺󱛎󱚹",
+  "block.computercraft.monitor_advanced": "󱛄󱚹󱛂󱛄󱚴󱛍󱚺 󱚶󱚹󱛍󱚲󱚵󱚲", 
+  "block.computercraft.monitor_normal": "󱛄󱚹󱛂󱛄󱚴󱛍󱚺",
+}
